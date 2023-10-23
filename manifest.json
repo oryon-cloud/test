@@ -1,0 +1,29 @@
+{
+    "name": "test",
+    "application": "test",
+    "depends": [""],
+    "externalDependencies": {
+        "node": {
+            "foo": "1.0.0"
+        },
+        "bin":{
+            "git": "0.12.28"
+        }
+    },
+    "version": "0.0.0",
+    "summary": "",
+    "description": "",
+    "license": "Apache 2.0",
+    "homepage": "",
+    "author": "Oryon Team",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "main": "index.ts",
+    "commands": {
+        "run": "oryon run $1",
+        "build": "oryon build $1",
+        "test": ""
+    }
+}
