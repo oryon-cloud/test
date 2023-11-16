@@ -1,0 +1,17 @@
+name: Publish to https://github.com/oryon-cloud/registry
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+
+      - name: View context attributes
+        uses: actions/github-script@v7
+        with:
+          script: console.log(context)
