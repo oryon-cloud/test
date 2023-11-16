@@ -1,4 +1,4 @@
-name: Publish to https://github.com/oryon-cloud/registry
+name: Publish to registry
 
 on:
   release:
