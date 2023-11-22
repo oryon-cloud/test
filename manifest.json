@@ -15,7 +15,7 @@
     "description": "",
     "license": "Apache 2.0",
     "homepage": "",
-    "author": "Oryon Team",
+    "author": "Oryon Team <wangbuke@gmail.com> (https://github.com/oryon-cloud)",
     "repository": {
         "type": "git",
         "url": ""
