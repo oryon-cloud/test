@@ -16,14 +16,6 @@
     "license": "Apache 2.0",
     "homepage": "",
     "author": "Oryon Team <wangbuke@gmail.com> (https://github.com/oryon-cloud)",
-    "repository": {
-        "type": "git",
-        "url": ""
-    },
-    "main": "index.ts",
-    "commands": {
-        "run": "oryon run $1",
-        "build": "oryon build $1",
-        "test": ""
-    }
+    "repository": "https://github.com/oryon-cloud/test",
+    "main": "index.ts"
 }
