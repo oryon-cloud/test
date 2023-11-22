@@ -1,6 +1,6 @@
 {
     "name": "test",
-    "application": "test",
+    "domain": "test",
     "depends": [""],
     "externalDependencies": {
         "node": {
